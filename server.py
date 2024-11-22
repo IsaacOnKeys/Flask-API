@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS=(app)
 @app.route("/")
 def hello_world():
-    return "Hello World"
+    return "Hey there! \nTo query products use the products page \n"
 
 products = [
     {'id' : 143, 'name' : 'Notebook', 'price' : 5.49},
